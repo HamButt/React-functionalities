@@ -1,0 +1,22 @@
+.buttons{
+    margin-top: 5rem;    
+    display: flex;
+    flex-direction: column;
+}
+.buttons .btn{
+    background-color: rgb(83, 183, 83);
+    color: black;
+    font-size: 18px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    margin: 1rem;
+
+}
+.buttons .btn1{
+    background-color: rgb(114, 226, 187);
+}
+.buttons .btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}

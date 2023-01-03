@@ -1,0 +1,60 @@
+.header{
+    text-align: center;
+    color: white;
+    background-color: rgb(83, 183, 83);
+    padding: 7px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    
+}
+.headerImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid rgb(19, 18, 18);
+}
+
+.light{
+    background-color: rgb(83, 183, 83);
+    color: white;
+}
+.dark{
+    background-color: black;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.capitalizeCase{
+    text-transform: capitalize;
+}
+.false{
+    display: none;
+}
+.true{
+    display: block;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileICon{
+    color: rgb(30, 123, 29);
+    font-size: 30px;
+    cursor: pointer;
+}
+.cameraICon:hover{
+    font-size: 25px;
+    color: yellow;
+    fill: blue;
+    /* color: blue; */
+}
+.profileICon:hover{
+    background-color: blue;
+    border-radius: 100px;
+}
